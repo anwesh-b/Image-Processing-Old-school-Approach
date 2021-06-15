@@ -5,7 +5,7 @@ import numpy as np
 
 colors = ['Red','Green','Blue']
 colorImage = '../input.jpg'
-bwImage = './bwInput.jpg'
+bwImage = '../bwInput.jpg'
 
 def getNpArrayFromImage(imageSource):
     img = im.open(imageSource)
